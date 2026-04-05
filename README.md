@@ -26,11 +26,23 @@ Se establece el rango de valores que tomará el parámetro. El incremento o "pas
 % Se define el parámetro de tiempo/proyección
 % [inicio : incremento : fin]
 t = [0 : 0.01 : 2*pi];
+```
 
 ### 2. Definición de funciones
 Se ingresan las ecuaciones paramétricas. Para figuras cerradas y simétricas, se suele combinar el uso de funciones seno y coseno con diferentes frecuencias.
-
 ```matlab
 % Cálculo de coordenadas independientes
 x = cos(t);
 y = sin(3*t);
+```
+
+### 3. Generación del gráfico
+Se utiliza el comando `comet` para visualizar la trayectoria en tiempo real. Se añade `axis equal` para que la proporción entre el eje X y Y sea la misma y la figura no se deforme.
+```matlab
+% Visualización de la trayectoria
+comet(x, y);
+axis equal; 
+grid on;
+```
+## Implementación de los Incisos a) - j)
+Para automatizar la generación de los 10 ejercicios de la actividad, se utiliza una estructura de celdas `{}` y funciones anónimas `@(t)`. Esto permite que un solo ciclo `for` procese fórmulas matemáticas distintas sin necesidad de reescribir el código completo cada vez.
