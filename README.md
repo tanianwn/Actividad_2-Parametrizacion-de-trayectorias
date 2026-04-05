@@ -26,3 +26,11 @@ Se establece el rango de valores que tomará el parámetro. El incremento o "pas
 % Se define el parámetro de tiempo/proyección
 % [inicio : incremento : fin]
 t = [0 : 0.01 : 2*pi];
+
+### 2. Definición de funciones
+Se ingresan las ecuaciones paramétricas. Para figuras cerradas y simétricas, se suele combinar el uso de funciones seno y coseno con diferentes frecuencias.
+
+```matlab
+% Cálculo de coordenadas independientes
+x = cos(t);
+y = sin(3*t);
