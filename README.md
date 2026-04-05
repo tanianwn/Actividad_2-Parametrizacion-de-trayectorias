@@ -37,7 +37,7 @@ y = sin(3*t);
 ```
 
 ### 3. Generación del gráfico
-Se utiliza el comando `comet` para visualizar la trayectoria en tiempo real. Se añade `axis equal` para que la proporción entre el eje X y Y sea la misma y la figura no se deforme.
+Se utiliza el comando `comet` para visualizar la trayectoria en tiempo real. 
 ```matlab
 % Visualización de la trayectoria
 comet(x, y);
