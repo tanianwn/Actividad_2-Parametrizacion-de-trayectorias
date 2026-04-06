@@ -62,6 +62,10 @@ Para lograr graficar estas trayectorias en matlab, se realiza una transformació
 ## Descripción de la Actividad
 El objetivo de esta actividad consiste en implementar código en MATLAB que genere diversas trayectorias en un plano bidimensional utilizando la lógica de coordenadas polares. A partir de imágenes dadas, se realiza un análisis geométrico para encontrar las amplitudes, frecuencias angulares y pasos que formen las figuras requeridas: 
 <p align="center">
+  <img src="https://github.com/user-attachments/assets/7599b236-8ff4-4c39-a7c5-c9496853a096" width="600" alt="Robot Cartesiano 3GDL"/>
+</p>
+
+<p align="center">
   <img src="https://github.com/user-attachments/assets/20494281-43e3-469e-bf19-1e0594125a1f" width="600" alt="Robot Cartesiano 3GDL"/>
 </p>
 
